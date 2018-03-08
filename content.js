@@ -8,10 +8,10 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-            var replacedText = text.replace(/Bolsonaro/g, 'lorem ipsum');
+            var politicsSUX = text.replace(/Bolsonaro/g, 'lorem ipsum');
 
-            if (replacedText !== text) {
-                element.replaceChild(document.createTextNode(replacedText), node);
+            if (politicsSUX!== text) {
+                element.replaceChild(document.createTextNode(politicsSUX), node);
             }
         }
     }
