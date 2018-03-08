@@ -8,7 +8,7 @@ for (var i = 0; i < elements.length; i++) {
 
         if (node.nodeType === 3) {
             var text = node.nodeValue;
-            var politicsSUX = text.replace(/Bolsonaro/g, 'lorem ipsum');
+            var politicsSUX = text.replace(/Lula|Bolsonaro|Bolsomito|Dilmãe/g, 'lorem ipsum');
 
             if (politicsSUX!== text) {
                 element.replaceChild(document.createTextNode(politicsSUX), node);
