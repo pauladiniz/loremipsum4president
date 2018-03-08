@@ -4,4 +4,5 @@ Extensão que substitui nomes de políticos, partidos e expressões chatas usada
 ### ▶️ Instalação
 - Faça o download do repositório<br>
 - Na aba do navegador, digite <b>chrome://extensions</b><br>
+- Extraia o arquivo zipado
 - Clique em Load Unpack, selecione a pasta <b>loremipsum4president</b> e dê ok<br>
