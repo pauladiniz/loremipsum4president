@@ -1,7 +1,16 @@
 // Convert HTMLCollection/NodeList to common JavaScript array with spread operator
 const elements = [...document.getElementsByTagName('*')];
 
-const politicsNames = ['Lula', 'Bolsonaro', 'Bolsomito', 'Dilmãe'];
+//Corrupt will not pass
+const politicsNames = [
+'Luiz Inácio Lula da Silva', 'Luiz Inácio da Silva', 'Lula', 'Bolsonaro', 
+'Bolsomito', 'Dilmãe', 'Dilma', 'Ciro Gomes', 
+'Marina Silva', 'Geraldo Alckmin', 'Michel Temer', 'Dilma Rousseff', 
+'Bolsominnion', 'Bolsominion', 'José Serra', 'Marta Suplicy', 
+'Eduardo Suplicy', 'Fernando Haddad', 'Paulo Maluf', 'José Sarney',
+'Romero Jucá Filho', 'Aécio Neves', 'Renan Calheiros', 'José Serra',
+'Marco Maia', 'Rodrigo Maia', 'Zeca Dirceu', 'José Dirceu'
+];
 
 elements.forEach((element) => {
   const validNodes = [...element.childNodes].filter(n => n.nodeType === 3);
