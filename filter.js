@@ -9,7 +9,7 @@ const politicsNames = [
 'Bolsominnion', 'Bolsominion', 'José Serra', 'Marta Suplicy', 
 'Eduardo Suplicy', 'Fernando Haddad', 'Paulo Maluf', 'José Sarney',
 'Romero Jucá Filho', 'Aécio Neves', 'Renan Calheiros', 'José Serra',
-'Marco Maia', 'Rodrigo Maia', 'Zeca Dirceu', 'José Dirceu', 'meubolsominiondeestimacao', 'Boulos'
+'Marco Maia', 'Rodrigo Maia', 'Zeca Dirceu', 'José Dirceu', 'meubolsominiondeestimacao', 'Boulos', 'Flávio Bolsonaro', 'Melhor Bodyboarder da Minha Rua', 'Micheque'
 ];
 
 elements.forEach((element) => {
